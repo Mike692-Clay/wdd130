@@ -11,10 +11,11 @@
       padding: 0;
     }
     header {
-      background-color: #0B1B2B;
-      color:  Black;
-      padding: 1rem;
-      text-align: center;
+     * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
     }
     nav {
       background-color: #FB2831;
@@ -77,6 +78,23 @@
   </main>
 
   <footer>
+    footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #023047;
+  color: white;
+}
+
+footer .social {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .social img {
+  height: 24px;
+}
     &copy; 2025 Michael Clay
   </footer>
 
