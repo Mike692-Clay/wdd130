@@ -1,0 +1,24 @@
+/* Universal selector reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==============================
+   Class Selectors
+   ============================== */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #333;
+    background-color: #f0f8ff; /* light blue */
+    color: #333; /* dark gray text */
+}
+
+/* Example aside rule (with no duplicated box model properties) */
+aside {
+    /* Other aside-specific styles go here, 
+       but do NOT include margin, padding, border, background-color, or color here */
+}
