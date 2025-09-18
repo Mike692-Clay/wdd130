@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +20,12 @@
     <main>
         <h1>Mike Clay | WDD130</h1>
         <p>Hello. My name is Mike Clay and I live in Taylorsville, Utah.</p>
+
+        <ul>
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/taylorsville-utah-temple?lang=eng" target="_blank" rel="noopener noreferrer">Taylorsville Utah Temple</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank" rel="noopener noreferrer">Seattle Washington Temple</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/tokyo-japan-temple?lang=eng" target="_blank" rel="noopener noreferrer">Tokyo Japan Temple</a></li>
+        </ul>
     </main>
     <aside>
         <h2>Utah</h2>
