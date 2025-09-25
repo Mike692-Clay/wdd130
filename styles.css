@@ -14,6 +14,26 @@ footer {
     margin: 0 auto; /* centers the content horizontally */
     padding: 1rem;  /* optional, adds some internal spacing */
 }
+/* ==============================
+   Navigation Bar
+   ============================== */
+
+nav {
+    display: flex;              /* enables Flexbox */
+    justify-content: space-evenly; /* evenly spaces links */
+    align-items: center;        /* vertically centers items within nav */
+    background-color: #f0f8ff;  /* optional: match .box background or any preferred color */
+    padding: 1rem;              /* adds spacing inside nav */
+}
+
+/* Optional: style individual links */
+nav a {
+    text-decoration: none;       /* remove underline */
+    color: #333;                 /* dark gray text */
+    font-weight: bold;
+    padding: 0.5rem 1rem;       /* optional spacing around each link */
+}
+
 
 /* ==============================
    Class Selectors
