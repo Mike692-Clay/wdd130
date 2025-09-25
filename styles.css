@@ -4,6 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ==============================
+   Header and Footer
+   ============================== */
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto; /* centers the content horizontally */
+    padding: 1rem;  /* optional, adds some internal spacing */
+}
 
 /* ==============================
    Class Selectors
