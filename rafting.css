@@ -141,6 +141,147 @@ section p {
 }
 
 /* ==============================
+   Contact Page - Company Info & Map
+   ============================== */
+.contact-info h1 {
+    font-size: 2.5rem;
+    color: #006494;
+    margin-bottom: 1rem;
+}
+
+.contact-info p, .contact-info h2 {
+    margin-bottom: 0.75rem;
+}
+
+.map-container {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 450px;
+    border: 2px solid #006494;
+    border-radius: 8px;
+}
+
+/* ==============================
+   Team / Employee Profiles
+   ============================== */
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.team .employee img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    border: 3px solid #00a3e0;
+}
+
+.team .employee p {
+    font-weight: bold;
+    color: #006494;
+}
+
+/* ==============================
+   Contact Form
+   ============================== */
+.contact-form form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: #006494;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    border: 1px solid #006494;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    color: #006494;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #006494;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #00a3e0;
+}
+
+/* ==============================
+   Responsive Adjustments
+   ============================== */
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    header nav {
+        justify-content: center;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+}
+
+/* ==============================
    Footer
    ============================== */
 footer {
