@@ -1,0 +1,74 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center the form and set a max width */
+form {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style headings */
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Style labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555555;
+}
+
+/* Style inputs, textarea, and select to have uniform width and spacing */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Style submit button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: responsive adjustments */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+}
