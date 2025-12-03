@@ -1,3 +1,22 @@
-"C:\Users\Owner\Downloads\taylorsville_utah_temple_exteriors.jpeg"
-"C:\Users\Owner\Downloads\seattle_washington_temple_exterior.jpeg"
-"C:\Users\Owner\Downloads\tokyo_japan_temple.jpeg"
+<ul>
+    <li>
+        <a href="https://www.churchofjesuschrist.org/temples/details/taylorsville-utah-temple?lang=eng" target="_blank" rel="noopener noreferrer">
+            <img src="images/taylorsville-temple.jpg" alt="Taylorsville Utah Temple">
+            Taylorsville Utah Temple
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank" rel="noopener noreferrer">
+            <img src="images/seattle-temple.jpg" alt="Seattle Washington Temple">
+            Seattle Washington Temple
+        </a>
+    </li>
+
+    <li>
+        <a href="https://www.churchofjesuschrist.org/temples/details/tokyo-japan-temple?lang=eng" target="_blank" rel="noopener noreferrer">
+            <img src="images/tokyo-temple.png" alt="Tokyo Japan Temple">
+            Tokyo Japan Temple
+        </a>
+    </li>
+</ul>
