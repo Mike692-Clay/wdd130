@@ -1,9 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Clay | WDD130</title>
+    <style>
+        /* Basic reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            background-color: steelblue;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Grid layout for main content */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr; /* single column on small screens */
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 2fr 1fr; /* main + aside */
+            }
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        main h1 {
+            margin-bottom: 10px;
+        }
+
+        main p {
+            margin-bottom: 20px;
+        }
+
+        .box ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box li {
+            flex: 1 1 200px; /* responsive flex item */
+        }
+
+        .box img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5px;
+        }
+
+        aside {
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+    </style>
+</head>
 <body>
+
 <header>
-  <nav> 
-    <a href="index.html">Home</a>
-    <a href="about.html">Rafting Website</a>
-  </nav>
+    <nav> 
+        <a href="index.html">Home</a>
+        <a href="about.html">Rafting Website</a>
+    </nav>
 </header>
 
 <!-- Wrap main and aside in a grid container -->
@@ -12,24 +102,25 @@
         <h1>Mike Clay | WDD130</h1>
         <p>Hello. My name is Mike Clay and I live in Taylorsville, Utah.</p>
 
-        <!-- Temple links in a box -->
         <div class="box">
             <ul>
                 <li>
                     <a href="https://www.churchofjesuschrist.org/temples/details/taylorsville-utah-temple?lang=eng" target="_blank" rel="noopener noreferrer">
-                        <img src="https://assets.churchofjesuschrist.org/35/6c/356c24c8280f9c54c68fcb5f4e29c94d51a551d9/taylorsville_utah_temple_exterior.jpeg" alt="Taylorsville Utah Temple" width="200">
+                        <img src="https://www.taylorsvilleut.gov/home/showpublishedimage/3787/637407884372200000" alt="Taylorsville Utah Temple">
                         Taylorsville Utah Temple
                     </a>
                 </li>
+
                 <li>
                     <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank" rel="noopener noreferrer">
-                        <img src="https://assets.churchofjesuschrist.org/4a/3a/4a3a1381e77f570e5c1aa1f423d9b8b0d30e4d4a/seattle_washington_temple_exterior.jpeg" alt="Seattle Washington Temple" width="200">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Seattle_Temple_in_Bellevue.jpg" alt="Seattle Washington Temple">
                         Seattle Washington Temple
                     </a>
                 </li>
+
                 <li>
                     <a href="https://www.churchofjesuschrist.org/temples/details/tokyo-japan-temple?lang=eng" target="_blank" rel="noopener noreferrer">
-                        <img src="https://assets.churchofjesuschrist.org/2f/1d/2f1dc65c97e574f3d29c60774fd49ca49754a6e7/tokyo_japan_temple_exterior.jpeg" alt="Tokyo Japan Temple" width="200">
+                        <img src="https://ogden_images.s3.amazonaws.com/www.heraldextra.com/images/2022/03/18020535/Screen-Shot-2022-03-15-at-7.19.49-PM-1192x938.png" alt="Tokyo Japan Temple">
                         Tokyo Japan Temple
                     </a>
                 </li>
@@ -52,3 +143,5 @@
     </p>
 </footer>
 
+</body>
+</html>
